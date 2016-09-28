@@ -4,6 +4,10 @@
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
+        "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Development\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },

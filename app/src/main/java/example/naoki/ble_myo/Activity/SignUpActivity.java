@@ -13,6 +13,7 @@ import example.naoki.ble_myo.R;
  * Created by Leki on 2016-09-03.
  */
 public class SignUpActivity extends AppCompatActivity {
+
     EditText signup_id, signup_pw, signup_pwre;
     EditText signup_name, signup_height, signup_weight;
     boolean idRedundancy = false;

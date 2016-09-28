@@ -16,6 +16,10 @@
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Development\\MyoMy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }

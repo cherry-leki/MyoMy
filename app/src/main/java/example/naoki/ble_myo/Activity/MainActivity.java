@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Menu;
@@ -43,7 +44,7 @@ import example.naoki.ble_myo.MyoGattCallback;
 import example.naoki.ble_myo.R;
 import example.naoki.ble_myo.view.TextProgressBar;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     public static final int MENU_MODE = 0;
     public static final int MENU_BYE = 1;
@@ -78,8 +79,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().hide();
 
         mHandler = new Handler();
         readyFragment = new ReadyFragment(this);
@@ -96,6 +96,10 @@ public class MainActivity extends ActionBarActivity {
             public void fragmentChange() {
                 healthStandard = mMyoCallback.countingProcess.getStandard();
                 mMyoCallback.setMode(MyoGattCallback.BREAK_MODE);
+
+                getSupportActionBar().show();
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                getSupportActionBar().setDisplayShowHomeEnabled(true);
                 fragmentReplace(1);
             }
 
@@ -159,6 +163,8 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public void onStop() {
         super.onStop();
+
+        if(mMyoCallback != null)
         this.closeBLEGatt();
     }
 
@@ -178,9 +184,6 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void closeBLEGatt() {
-//        if (ReadyActivity.mBluetoothGatt == null) {
-//            return;
-//        }
 
         mMyoCallback.stopCallback();
         mMyoCallback = null;

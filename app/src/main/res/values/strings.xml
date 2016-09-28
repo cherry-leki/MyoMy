@@ -11,4 +11,8 @@
     <string name="posture_correct">자세교정</string>
 
     <string name="exercising_mode">Mode</string>
+
+    <string name="text_exercise_select">운동을 선택해 주세요.</string>
+    <string name="text_find_myo">Myo를 연결해 주세요.</string>
+    <string name="text_exercise_test">테스트를 시작합니다.</string>
 </resources>

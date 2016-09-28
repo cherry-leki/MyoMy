@@ -10,10 +10,10 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
+import java.lang.reflect.Field;
+
 import example.naoki.ble_myo.DataProcess.AeroExerciseSelectAdapter;
-import example.naoki.ble_myo.DataProcess.AeroExerciseSelectItem;
 import example.naoki.ble_myo.DataProcess.AnaeroExerciseSelectAdapter;
-import example.naoki.ble_myo.DataProcess.AnaeroExerciseSelectItem;
 import example.naoki.ble_myo.R;
 
 /**
@@ -73,10 +73,20 @@ public class ExerciseSelectFragment extends Fragment {
         anaeroexerciseList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View view, int position, long id) {
-                AnaeroExerciseSelectItem item = (AnaeroExerciseSelectItem) parent.getItemAtPosition(position);
 
-                String titleStr = item.getTitle();
-                String descStr = item.getDesc();
+                Class item = parent.getItemAtPosition(position).getClass();
+                Field titleField = null;
+                Field  descField = null;
+
+                try {
+                    titleField = item.getDeclaredField("titleStr");
+                    descField = item.getDeclaredField("descStr");
+                } catch (NoSuchFieldException e) {
+                    e.printStackTrace();
+                }
+
+                String titleStr = titleField.toString();
+                String descStr = descField.toString();
 
                 System.out.println(titleStr);
 
@@ -88,10 +98,19 @@ public class ExerciseSelectFragment extends Fragment {
         aeroexerciseList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View view, int position, long id) {
-                AeroExerciseSelectItem item = (AeroExerciseSelectItem) parent.getItemAtPosition(position);
+                Class item = parent.getItemAtPosition(position).getClass();
+                Field titleField = null;
+                Field  descField = null;
 
-                String titleStr = item.getTitle();
-                String descStr = item.getDesc();
+                try {
+                    titleField = item.getDeclaredField("titleStr");
+                    descField = item.getDeclaredField("descStr");
+                } catch (NoSuchFieldException e) {
+                    e.printStackTrace();
+                }
+
+                String titleStr = titleField.toGenericString();
+                String descStr = descField.toGenericString();
 
                 System.out.println(titleStr);
 

@@ -11,8 +11,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
 import android.view.Menu;
@@ -33,7 +33,7 @@ import example.naoki.ble_myo.R;
 /**
  * Created by Sabarada on 2016-08-10.
  */
-public class MenuActivity extends ActionBarActivity {
+public class MenuActivity extends AppCompatActivity {
 
     public static int screenWidth;
     public static int screenHeight;

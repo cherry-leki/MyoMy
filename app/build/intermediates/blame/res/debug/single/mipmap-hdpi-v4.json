@@ -18,5 +18,9 @@
     {
         "merged": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Development\\MyoMy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Development\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     }
