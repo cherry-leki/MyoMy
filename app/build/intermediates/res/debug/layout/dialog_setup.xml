@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_marginTop="10dip"
+        android:background="#ff0000ff"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/firstLayout"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/counterCheckbox"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:text="횟수 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/counterEditText"
+            android:layout_marginLeft="10dp"
+            android:ems="2"
+            android:maxLength="2"
+            android:phoneNumber="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:text="회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/setEditText"
+            android:phoneNumber="true"
+            android:layout_marginLeft="10dp"
+            android:maxLength="2"
+            android:ems="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:text="세트"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <CheckBox
+            android:id="@+id/timeCheckbox"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:text="시간 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:text=":"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:text=":"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:background="#ff0000ff"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"/>
+
+</LinearLayout><!-- From: file:/C:/Development/myo_AndoridEMG-master/BLE_myo_Develop/app/src/main/res/layout/dialog_setup.xml -->

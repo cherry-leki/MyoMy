@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BLE_myo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list">ListActivity</string>
+
+
+    <string name="exercise_select">운동선택</string>
+    <string name="exercise_count">운동횟수</string>
+    <string name="posture_correct">자세교정</string>
+
+    <string name="exercising_mode">Mode</string>
+</resources>

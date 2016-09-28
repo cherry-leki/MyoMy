@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="9.5"
+    android:paddingBottom="60dip"
+    android:paddingLeft="40dip"
+    android:paddingRight="40dip"
+    android:paddingTop="30dip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/findMyoText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Myo를 연결해주세요."
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:background="#eaf2f2">
+
+        <ListView
+            android:id="@+id/findMyoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dip"
+            android:background="#ffffff"
+            android:padding="3dp"></ListView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+        <Button
+            android:onClick="findMyoButtonClick"
+            android:id="@+id/findMyoButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Search" />
+    </FrameLayout>
+
+</LinearLayout>

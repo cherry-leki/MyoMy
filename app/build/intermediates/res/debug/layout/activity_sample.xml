@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity.SampleActivity">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <example.naoki.ble_myo.view.SampleGraph
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/cv" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시작"
+                android:id="@+id/smaple_start"
+                android:layout_gravity="left|center_vertical"
+                android:nestedScrollingEnabled="false"
+                android:onClick="sample_startButtonClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정지"
+                android:id="@+id/sample_stop"
+                android:layout_gravity="right|center_vertical"
+                android:onClick="sample_stopButtonClick" />
+        </FrameLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="AVG"
+                    android:id="@+id/txt_avg"
+                    android:layout_column="0"
+                    android:textSize="18dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="65dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:id="@+id/txt_avg2"
+                    android:layout_column="1"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="MIN"
+                    android:id="@+id/txt_min"
+                    android:layout_column="0"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:id="@+id/txt_min2"
+                    android:layout_column="1"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="MAX"
+                    android:id="@+id/txt_max"
+                    android:layout_column="0"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:id="@+id/txt_max2"
+                    android:layout_column="1"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="Count"
+                    android:id="@+id/txt_count"
+                    android:layout_column="0"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:id="@+id/txt_count2"
+                    android:layout_column="1"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="Time"
+                    android:id="@+id/txt_time"
+                    android:layout_column="0"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:id="@+id/txt_time2"
+                    android:layout_column="1"
+                    android:textSize="18dp"
+                    android:textIsSelectable="false" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Development/myo_AndoridEMG-master/BLE_myo_Develop/app/src/main/res/layout/activity_sample.xml -->

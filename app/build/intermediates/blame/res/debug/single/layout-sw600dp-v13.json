@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout-sw600dp\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout-sw600dp\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout-sw600dp\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout-sw600dp\\design_layout_snackbar.xml"
+    }
+]
