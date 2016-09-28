@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BLE_myo_Develop_V1.0.1_Change ReadyActivity.iml" filepath="$PROJECT_DIR$/BLE_myo_Develop_V1.0.1_Change ReadyActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyoMy.iml" filepath="$PROJECT_DIR$/MyoMy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
