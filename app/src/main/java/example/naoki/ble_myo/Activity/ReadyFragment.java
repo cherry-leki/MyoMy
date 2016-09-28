@@ -14,12 +14,14 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.echo.holographlibrary.LineGraph;
 
+import example.naoki.ble_myo.DataProcess.NonSwipeableViewPager;
 import example.naoki.ble_myo.MyoGattCallback;
 import example.naoki.ble_myo.R;
 
@@ -32,10 +34,14 @@ public class ReadyFragment extends Fragment {
     private Context context;
     private Handler handler;
     private Fragment fragment;
-    private ViewPager viewPager;
+    private NonSwipeableViewPager viewPager;
 
     private ReadyListener readyListener;
     private TextView readyText;
+
+    public static final int EXERCISE_SELECT = 0;
+    public static final int FIND_MYO = 1;
+    public static final int EXERCISE_TEST = 2;
 
     public interface ReadyListener
     {
@@ -43,14 +49,6 @@ public class ReadyFragment extends Fragment {
         void fragmentChange();
         void send(BluetoothDevice device, String deviceName);
     }
-
-    public final int EXERCISE_SELECT = 0;
-    public final int FIND_MYO = 1;
-    public final int EXERCISE_TEST = 2;
-
-    private final String TEXT_EXERCISE_SELECT  = "운동을 선택해주세요.";
-    private final String TEXT_FIND_MYO          = "Myo를 연결해주세요.";
-    private final String TEXT_EXERCISE_TEST    = "테스트를 시작합니다.";
 
     private ExerciseSelectFragment exerciseSelectFragment;
     private ExerciseTestFragment exerciseTestFragment;
@@ -71,16 +69,17 @@ public class ReadyFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        viewPager = (ViewPager)view.findViewById(R.id.viewPager);
+        viewPager = (NonSwipeableViewPager)view.findViewById(R.id.viewPager);
         viewPager.setAdapter(new PagerAdapter(getChildFragmentManager()));
+
         readyText = (TextView)view.findViewById(R.id.readyText);
 
         exerciseSelectFragment = new ExerciseSelectFragment();
         exerciseSelectFragment.setSwitchScreen(new ExerciseSelectFragment.SwitchScreen() {
             @Override
             public void switchNextScreen() {
-                viewPager.setCurrentItem(1);
-                readyText.setText("Myo를 연결해주세요.");
+                viewPager.setCurrentItem(FIND_MYO);
+                readyText.setText(getString(R.string.text_find_myo));
             }
             @Override
             public void selectExercise(String name, int type) {
@@ -92,8 +91,8 @@ public class ReadyFragment extends Fragment {
         exerciseTestFragment.setSwitchScreen(new ExerciseTestFragment.ButtonInterface() {
             @Override
             public void switchPrevScreen() {
-                viewPager.setCurrentItem(1);
-                readyText.setText("Myo를 연결해주세요.");
+                viewPager.setCurrentItem(FIND_MYO);
+                readyText.setText(getString(R.string.text_find_myo));
             }
 
             @Override
@@ -112,14 +111,14 @@ public class ReadyFragment extends Fragment {
         findMyoFragment.setSwitchScreen(new FindMyoFragment.SwitchScreen() {
             @Override
             public void switchNextScreen() {
-                viewPager.setCurrentItem(2);
-                readyText.setText("테스트를 시작합니다.");
+                viewPager.setCurrentItem(EXERCISE_TEST);
+                readyText.setText(getString(R.string.text_exercise_test));
             }
 
             @Override
             public void switchPrevScreen() {
-                viewPager.setCurrentItem(0);
-                readyText.setText("운동을 선택해주세요.");
+                viewPager.setCurrentItem(EXERCISE_SELECT);
+                readyText.setText(getString(R.string.text_exercise_select));
             }
 
             @Override
@@ -133,8 +132,6 @@ public class ReadyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
        View view = inflater.inflate(R.layout.fragment_ready, container, false);
-//        readyText = (TextView)view.findViewById(R.id.readyText);
-
         return view;
     }
 

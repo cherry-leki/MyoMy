@@ -890,7 +890,10 @@ int string exercising_mode 0x7f06001a
 int string hello_world 0x7f06001b
 int string posture_correct 0x7f06001c
 int string status_bar_notification_info_overflow 0x7f060013
-int string title_activity_list 0x7f06001d
+int string text_exercise_select 0x7f06001d
+int string text_exercise_test 0x7f06001e
+int string text_find_myo 0x7f06001f
+int string title_activity_list 0x7f060020
 int style AlertDialog_AppCompat 0x7f090088
 int style AlertDialog_AppCompat_Light 0x7f090089
 int style Animation_AppCompat_Dialog 0x7f09008a

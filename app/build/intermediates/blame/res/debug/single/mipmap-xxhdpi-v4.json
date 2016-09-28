@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Development\\MyoMy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

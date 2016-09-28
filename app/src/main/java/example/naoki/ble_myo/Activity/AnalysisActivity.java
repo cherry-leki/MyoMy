@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Environment;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,7 +18,8 @@ import example.naoki.ble_myo.view.FileDialog;
 import example.naoki.ble_myo.view.SampleGraph;
 import example.naoki.ble_myo.R;
 
-public class AnalysisActivity extends ActionBarActivity {
+public class AnalysisActivity extends AppCompatActivity {
+
     SampleGraph graph;
     int count;
     String txtfile;
