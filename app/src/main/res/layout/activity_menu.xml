@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:minHeight="?attr/actionBarSize"
-        android:background="#000000"
+        android:background="#343434"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
 
@@ -27,6 +27,8 @@
             android:id="@+id/action_bar_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:background="#ffffff">
 
             <LinearLayout
@@ -34,39 +36,37 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:paddingTop="5dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
                 android:weightSum="4">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.95"
-                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.9"
+                    android:layout_marginTop="8dp"
                     android:orientation="horizontal"
                     android:weightSum="3">
 
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_margin="5dp"
+                        android:layout_marginRight="8dp"
                         android:layout_weight="1.1"
                         android:weightSum="2"
                         android:orientation="vertical"
-                        android:background="@drawable/introbuttons_default">
+                        android:background="@drawable/menu_contentsbackground">
 
                         <TextView
                             android:id="@+id/menuYear"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             android:gravity="center_horizontal|bottom"
                             android:layout_weight="1"/>
                         <TextView
                             android:id="@+id/menuMonthDay"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="40dp"
+                            android:textSize="38sp"
                             android:gravity="center_horizontal|top"
                             android:layout_weight="1"/>
                     </LinearLayout>
@@ -74,18 +74,27 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_margin="5dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_weight="1.9"
-                        android:background="@drawable/introbuttons_default">
-
+                        android:background="@drawable/menu_contentsbackground">
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@drawable/menu_uppertitle">
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:textSize="15dp"
                             android:layout_marginTop="5dp"
+                            android:textColor="#ffffff"
                             android:text=" 오늘의 소모 칼로리" />
+                        </FrameLayout>
+
                     </LinearLayout>
                 </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.05"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,14 +103,15 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:orientation="vertical"
-                    android:background="@drawable/introbuttons_touch">
+                    android:background="@drawable/menu_contentsbackground">
                     <FrameLayout
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
-                        android:background="@drawable/introbuttons_default">
+                        android:background="@drawable/menu_uppertitle">
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:textColor="#ffffff"
                             android:text="  오늘의 운동"
                             android:gravity="center_vertical"/>
                     </FrameLayout>
@@ -111,30 +121,42 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:paddingTop="-10dp"
-                        android:background="#ffffff">
+                        android:background="#ffffff"
+                        >
                     </ListView>
 
                 </LinearLayout>
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1.2">
+                    android:layout_weight="1.1">
 
                     <Button
                         android:id="@+id/exerciseButton"
                         android:onClick="exerciseButtonClick"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
                         android:layout_alignParentLeft="true"
+                        android:background="@drawable/menu_button_setting"
+                        android:textSize="20sp"
                         android:text="운동\n하기" />
 
                     <Button
                         android:id="@+id/analysisButton"
                         android:onClick="AnalysisButtonClick"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
                         android:layout_alignParentRight="true"
+                        android:background="@drawable/menu_button_setting"
+                        android:textSize="20sp"
                         android:text="분석\n하기" />
                 </RelativeLayout>
             </LinearLayout>
