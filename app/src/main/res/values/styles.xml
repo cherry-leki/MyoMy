@@ -8,7 +8,6 @@
     <style name="MainTheme" parent="Theme.AppCompat.NoActionBar">
     </style>
 
-
     <style name="mainTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:background">@android:color/transparent</item>
     </style>
