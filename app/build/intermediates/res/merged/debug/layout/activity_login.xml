@@ -89,6 +89,7 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:text="회원가입"
+                    android:textSize="14dp"
                     android:onClick="signUpButtonClick"/>
 
                 <Button
@@ -97,6 +98,7 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentRight="true"
                     android:text="문의하기"
+                    android:textSize="14dp"
                     android:onClick="questionButtonClick"/>
             </RelativeLayout>
         </LinearLayout>

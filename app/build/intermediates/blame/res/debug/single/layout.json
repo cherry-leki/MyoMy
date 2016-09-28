@@ -44,12 +44,12 @@
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -118,6 +118,7 @@
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+<<<<<<< HEAD
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -126,30 +127,41 @@
     {
         "merged": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_cancel_action.xml"
+=======
+>>>>>>> 56cb7f9eeb89c80c9f2c1deedc0bf26401303884
     },
     {
-        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Development\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
+=======
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+>>>>>>> 56cb7f9eeb89c80c9f2c1deedc0bf26401303884
     },
     {
         "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
         "source": "C:\\Development\\MyoMy\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",

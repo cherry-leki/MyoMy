@@ -2,6 +2,7 @@
 <items version="2" >
 
     <item
+<<<<<<< HEAD
         jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -14,6 +15,13 @@
         revision="23.0.2"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_ade3d3b96435683a179985e5bfcc77867563e341.jar" />
+=======
+        jar="C:\Users\Leki\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\Leki\MyoMy\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_6928989a551cc3646465ab23d25538cb75076aad.jar" />
+>>>>>>> 56cb7f9eeb89c80c9f2c1deedc0bf26401303884
     </item>
     <item
         jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.echo\holographlibrary\1.0\jars\classes.jar"
@@ -30,6 +38,7 @@
         <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_0f718e5917b7ba79bdb515f1dd958f5c91cba6c3.jar" />
     </item>
     <item
+<<<<<<< HEAD
         jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -56,6 +65,34 @@
         revision="23.0.2"
         sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_b452aff467e313e92eda6d148d80c6974057e87a.jar" />
+=======
+        jar="C:\Users\Leki\MyoMy\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Leki\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_cb29bd0038c341ba8078f14c1a953df40892def5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leki\MyoMy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Leki\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_9c25f23a58b27138e9f5b468d0df4ee17d296d60.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leki\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\Leki\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_d7fe13cfcdff0f967d4bb280db86691d41bb2f39.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leki\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\Leki\MyoMy\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_e93781a62ca71adcd0c15b6487d3ceedf8f77e73.jar" />
+>>>>>>> 56cb7f9eeb89c80c9f2c1deedc0bf26401303884
     </item>
     <item
         jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
@@ -63,6 +100,13 @@
         revision="23.0.2"
         sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_cc5500b10c655b8220b453a5bbcaebedbd1140c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leki\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\Leki\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_627c21cf98fbfe09760666f6733e4dcdeaef64ef.jar" />
     </item>
 
 </items>

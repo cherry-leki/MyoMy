@@ -460,6 +460,10 @@
         "source": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\src\\main\\res\\drawable\\introbuttons_notouch.xml"
     },
     {
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button.xml",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\src\\main\\res\\drawable\\menu_button.xml"
+    },
+    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_copy_material.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_copy_material.xml"
     },
@@ -534,6 +538,10 @@
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_contentsbackground.xml",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\src\\main\\res\\drawable\\menu_contentsbackground.xml"
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -658,6 +666,10 @@
     {
         "merged": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Leki\\Desktop\\Dooo\\Myo\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_uppertitle.xml",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\src\\main\\res\\drawable\\menu_uppertitle.xml"
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_V1.0.1_Change ReadyActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_cut_material.xml",
@@ -872,12 +884,20 @@
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_buttonclick.xml",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\src\\main\\res\\drawable\\menu_buttonclick.xml"
+    },
+    {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_setting.xml",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\src\\main\\res\\drawable\\menu_button_setting.xml"
     },
     {
         "merged": "C:\\Development\\myo_AndoridEMG-master\\BLE_myo_Develop_Integration(1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_states.xml",
