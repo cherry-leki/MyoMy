@@ -2011,6 +2011,11 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+<<<<<<< HEAD
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="108ab09d" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
+    <property name="FullScreen" value="false" />
+=======
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="LGF400L16d00139" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myo_AndoridEMG-master/BLE_myo_Develop_V1.0.1_Change ReadyActivity" />
     <property name="FullScreen" value="false" />
@@ -2019,6 +2024,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Development\MyoMy\app\src\main\java\example\naoki\ble_myo\DataProcess" />
     </key>
+>>>>>>> 12d703884219792049e50685a880da084f9e4b62
   </component>
   <component name="RunManager" selected="Android Application.LoginActivity">
     <configuration default="false" name="LoginActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
@@ -2289,7 +2295,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23977433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23977433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
