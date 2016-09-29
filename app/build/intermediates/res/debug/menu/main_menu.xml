@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/poweroff"
-        android:icon="@drawable/poweroff"
-        app:showAsAction="ifRoom"/>
-</menu><!-- From: file:/C:/Development/myo_AndoridEMG-master/BLE_myo_Develop/app/src/main/res/menu/main_menu.xml -->

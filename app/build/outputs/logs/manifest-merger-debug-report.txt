@@ -43,25 +43,12 @@ ADDED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml:11:5-12:35
 		ADDED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml:11:19-63
 application
 ADDED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml:14:5-46:19
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.1.1] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.echo:holographlibrary:1.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.echo\holographlibrary\1.0\AndroidManifest.xml:10:5-15:19
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
@@ -115,26 +102,13 @@ ADDED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml:42:9-45:20
 		ADDED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml:43:13-54
 uses-sdk
 INJECTED from C:\Development\MyoMy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:23.1.1] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
 MERGED from [com.echo:holographlibrary:1.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.echo\holographlibrary\1.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-v4:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.2.0] C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
