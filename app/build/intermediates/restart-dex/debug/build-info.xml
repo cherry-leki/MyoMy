@@ -4,9 +4,15 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.0"
+<<<<<<< HEAD
     timestamp="167449505646022"
     token="3784532146221969935"
     verifier="COLD_SWAP_REQUESTED" >
+=======
+    timestamp="1064328200071587"
+    token="6777950850365411762"
+    verifier="FULL_BUILD_REQUESTED" >
+>>>>>>> cadfefd48c37186432f082af9bfff2f75adc5a95
 
     <task
         name="javac"
@@ -22,6 +28,7 @@
         duration="4" />
 
     <artifact
+<<<<<<< HEAD
         location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
         type="DEX" />
     <artifact
@@ -30,11 +37,19 @@
 
     <build
         timestamp="167035589199964"
+=======
+        location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1064328200071587"
+>>>>>>> cadfefd48c37186432f082af9bfff2f75adc5a95
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Development\MyoMy\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+<<<<<<< HEAD
     <build
         timestamp="167449505646022"
         verifier="COLD_SWAP_REQUESTED" >
@@ -45,5 +60,7 @@
             location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
+=======
+>>>>>>> cadfefd48c37186432f082af9bfff2f75adc5a95
 
 </instant-run>

@@ -30,7 +30,7 @@ public class TextProgressBar extends ProgressBar {
     public TextProgressBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        setProgressTintList(ColorStateList.valueOf(Color.RED));
+//        setProgressTintList(ColorStateList.valueOf(Color.RED));
 
         text = "HP";
         textPaint = new Paint(Color.BLACK);
