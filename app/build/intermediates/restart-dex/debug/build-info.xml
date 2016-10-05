@@ -4,9 +4,9 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="2786190334024"
+    timestamp="162474213533150"
     token="3784532146221969935"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -22,15 +22,28 @@
         duration="0" />
 
     <artifact
-        location="C:\Development\MyoMy\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="20331347678402"
-        verifier="COMPATIBLE" >
+        timestamp="162114157816036"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Development\MyoMy\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="C:\Development\MyoMy\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="162474213533150"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

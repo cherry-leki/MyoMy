@@ -379,7 +379,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
     public void onCharacteristicChanged(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic) {
 
         if (EMG_0_ID.equals(characteristic.getUuid().toString())) {
-
             if (nowMode != BREAK_MODE) {
                 systemTime_ms = System.currentTimeMillis();
                 byte[] emg_data = characteristic.getValue();
@@ -401,7 +400,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
             // Test 모드
             if (nowMode == TEST_MODE) {
                 countingProcess.onTest(movingAverage.applyMovingAverage());
-
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {

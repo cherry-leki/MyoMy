@@ -97,10 +97,15 @@ public class MainActivity extends AppCompatActivity {
                 healthStandard = mMyoCallback.countingProcess.getStandard();
                 mMyoCallback.setMode(MyoGattCallback.BREAK_MODE);
 
-                getSupportActionBar().show();
-                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-                getSupportActionBar().setDisplayShowHomeEnabled(true);
-                fragmentReplace(1);
+                mHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        getSupportActionBar().show();
+                        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                        getSupportActionBar().setDisplayShowHomeEnabled(true);
+                        fragmentReplace(1);
+                    }
+                });
             }
 
             @Override

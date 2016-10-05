@@ -57,8 +57,6 @@ public class CountingProcess {
 
     public void onTest(int value)
     {
-        System.out.println("Test");
-
         if (onTest) {
             startTime = System.currentTimeMillis() / 1000;
 
@@ -88,8 +86,7 @@ public class CountingProcess {
     int second;
 
     public void judgeDumbbellCounting(int value) {
-
-        System.out.println("Main");
+        System.out.println(standard);
 
         if(onStart) {
             if (judge && value < standard) {
@@ -101,6 +98,11 @@ public class CountingProcess {
             }
 
             else if (value > standard) {
+                String total;
+                String secondString;
+                String mSecondString;
+                String minuteString;
+
                 if (timeBoolean) {
                     mStartTime = System.currentTimeMillis() / 10;       // 밀리초
                     timeBoolean = false;
@@ -108,7 +110,6 @@ public class CountingProcess {
 
                 long mSecond = (((System.currentTimeMillis() / 10) - mStartTime) % 100);
                 long second = (((System.currentTimeMillis() / 10) - mStartTime) / 100);
-
 
                 if(second > 0)
                 {
@@ -128,18 +129,10 @@ public class CountingProcess {
                     minute = 0;
                 }
 
-                String total;
-                String secondString;
-                String mSecondString;
-                String minuteString;
-
                 if(mSecond < 10) mSecondString = String.format("0%d", mSecond); else mSecondString = String.format("%d", mSecond);
                 if(minute < 10) minuteString = String.format("0%d", minute); else minuteString = String.format("%d", minute);
                 if(this.second < 10) secondString = String.format("0%d",  this.second); else secondString = String.format("%d", this.second);
-
                 total = String.format("%d:%s:%s.%s", hour, minuteString, secondString, mSecondString);
-
-
                 countingListener.setTime(total);
 
                 if (!judge) {
