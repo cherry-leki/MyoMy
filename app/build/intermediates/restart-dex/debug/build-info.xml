@@ -4,16 +4,16 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="1060619099741360"
+    timestamp="1064328200071587"
     token="6777950850365411762"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
         duration="0" />
     <task
         name="instant-run-dex"
-        duration="1316" />
+        duration="0" />
     <task
         name="instant-run-transform"
         duration="0" />
@@ -22,28 +22,15 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\Leki\MyoMy\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\Leki\MyoMy\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="1060594719632498"
+        timestamp="1064328200071587"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="1060619099741360"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Leki\MyoMy\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\Leki\MyoMy\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
