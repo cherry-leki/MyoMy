@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-#Wed Oct 05 21:20:12 KST 2016
-=======
-#Wed Oct 05 21:12:47 KST 2016
->>>>>>> 70cd39e365fbe20e7a713ff8539bd026c446bdec
+#Wed Oct 05 21:36:22 KST 2016

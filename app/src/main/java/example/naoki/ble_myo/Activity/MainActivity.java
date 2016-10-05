@@ -110,39 +110,30 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void send(BluetoothDevice device, String deviceName) {
-
                 if ((MainActivity.this.deviceName = deviceName) != null) {
-
                     // Ensures Bluetooth is available on the device and it is enabled. If not,
                     // displays a dialog requesting user permission to enable Bluetooth.
                     if (mBluetoothAdapter == null || !mBluetoothAdapter.isEnabled()) {
                         Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
                         startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
                     } else {
-
                         Toast.makeText(MainActivity.this, "Test를 해 주세요.", Toast.LENGTH_SHORT).show();
-
                         mMyoCallback = new MyoGattCallback(mHandler);
                         mBluetoothGatt = device.connectGatt(MainActivity.this, false, mMyoCallback); // connect to GATT Server, , if this command is success, call method onServicesDiscovered in MyoGattCallback Class
                         mMyoCallback.setBluetoothGatt(mBluetoothGatt);
-
                         mMyoCallback.setMode(MyoGattCallback.TEST_MODE);
                     }
                 }
             }
         });
+
         mainFragment = new MainFragment(this);
         mainFragment.setMainFragmentListener(new MainFragment.MainFragmentListener() {
-
             @Override
             public void startButtonClick(HashMap<String, View> views) {
-
                 mMyoCallback.setType(healthType);
-                mMyoCallback.setStandard(healthStandard);
                 mMyoCallback.setMode(MyoGattCallback.MAIN_MODE);
                 mMyoCallback.setMainInit(views);
-
-//                mMyoCallback.setMyoControlCommand(commandList.sendEmgOnly());
             }
 
             @Override
@@ -228,11 +219,5 @@ public class MainActivity extends AppCompatActivity {
 
         return fragment;
     }
-
-//    public void setupButtonClick(View v)
-//    {
-//        setupDialog.showDialog();
-//    }
-
 }
 

@@ -59,7 +59,6 @@ public class CountingProcess {
     {
         if (onTest) {
             startTime = System.currentTimeMillis() / 1000;
-
             onTest = false;
             this.nowProcess = TEST_ON;
             return;
@@ -68,7 +67,6 @@ public class CountingProcess {
         processTime = (System.currentTimeMillis() / 1000) - startTime;
         if ( processTime  > 8) {
             onMain = true;
-
             for(int i = 0; i < standardSum.size(); i++)
             {
                 standard += standardSum.get(i);
@@ -78,6 +76,7 @@ public class CountingProcess {
             this.nowProcess = TEST_OFF;
             return;
         }
+
         standardSum.add(value);
         return;
     }
@@ -86,11 +85,12 @@ public class CountingProcess {
     int second;
 
     public void judgeDumbbellCounting(int value) {
-        System.out.println(standard);
 
         if(onStart) {
+
+            System.out.println(judge + " " + value + " " + standard);
+
             if (judge && value < standard) {
-//                System.out.println("value : " + this.standard);
                 judge = false;
                 this.nowProcess = MAIN;
                 countingListener.addCount();
@@ -140,11 +140,6 @@ public class CountingProcess {
                 }
             }
         }
-    }
-
-    public void setStandard(int standard)
-    {
-        this.standard = standard;
     }
 
     public void setStart()

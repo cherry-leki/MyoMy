@@ -115,13 +115,14 @@ public class MyoGattCallback extends BluetoothGattCallback {
     {
         countingProcess = new CountingProcess();
         countingProcess.setAddCount(new CountingProcess.CountingListener() {
-
             @Override
             public void addCount() {
+
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        if (countingProcess.getState() == CountingProcess.MAIN) {
+                        System.out.println("안녕");
+                        if (nowMode == MAIN_MODE) {
                             counting++;
                             if (counting > counterProgressBar.getMax()) {
                                 setCount++;
@@ -131,6 +132,8 @@ public class MyoGattCallback extends BluetoothGattCallback {
                             }
 
                             gestureText.setText("Counting : " + ++totalCount);
+                            System.out.println(countingProcess.getStandard());
+
                             counterProgressBar.setProgress(counting);
                             counterProgressBar.setText(String.format("%d / %d 회", counting, counterProgressBar.getMax()));
                         }
@@ -155,14 +158,13 @@ public class MyoGattCallback extends BluetoothGattCallback {
     public void setLineGraph(LineGraph lineGraph) {
         this.lineGraph = lineGraph;
     }
-
     public void setMode(int mode)
     {
+        countingProcess.setStart();
         this.nowMode = mode;
     }
 
     public void setMainInit(HashMap<String, View> views) {
-
         lineGraph = (LineGraph) views.get("graph");
         gestureText = (TextView) views.get("gestureText");
         counterProgressBar = (TextProgressBar) views.get("counterProgressBar");
@@ -170,7 +172,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
         timeProgressBar = (ProgressBar) views.get("timeProgressBar");
         timeText = (TextView) views.get("timeTextView");
         healthText = (TextView) views.get("healthTextView");
-
 
         new Thread(new Runnable() {
             @Override
@@ -182,7 +183,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
                             @Override
                             public void run() {
                                 timeProgressBar.setProgress(timeProgressBar.getProgress() - 1);
-
                                 if (timeProgressBar.getProgress() < 1) {
                                     timeProgressBar.setProgress(60);
                                 }
@@ -196,8 +196,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
         }).start();
 
         myoDataFileReader = new MyoDataFileReader();
-//        movingAverage = new MovingAverage();
-//        setCountingProcess();
     }
 
     @Override
@@ -394,16 +392,17 @@ public class MyoGattCallback extends BluetoothGattCallback {
 
                 dataList1_a[0][0] = movingAverage.applyMovingAverage();
                 dataList1_b[0][0] = movingAverage.applyMovingAverage();
+
                 callback_msg = String.format("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d", emgDatas[0], emgDatas[1], emgDatas[2], emgDatas[3], emgDatas[4], emgDatas[5], emgDatas[6], emgDatas[7], emgDatas[8], emgDatas[8], emgDatas[10], emgDatas[11], emgDatas[12], emgDatas[13], emgDatas[14], emgDatas[15]);
             }
 
             // Test 모드
             if (nowMode == TEST_MODE) {
                 countingProcess.onTest(movingAverage.applyMovingAverage());
+
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-
                         lineGraph.removeAllLines();
 
                         // 折れ線グラフ
@@ -442,7 +441,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
                 }
 
             } else if (nowMode == MAIN_MODE) {
-
                 myoDataFileReader.saveRAW(callback_msg);
                 countingProcess.judgeDumbbellCounting(movingAverage.applyMovingAverage());     // Dumbbell Counting
 
@@ -450,7 +448,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
                     @Override
                     public void run() {
                         lineGraph.removeAllLines();
-
                         if (Math.abs(movingAverage.getDegree()) > 30) {
                             breakTime = System.currentTimeMillis() / 1000;
                             healthText.setText("운동 중");
@@ -502,7 +499,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
     }
 
     public boolean setMyoControlCommand(byte[] command) {
-
         if (mCharacteristic_command != null) {
             mCharacteristic_command.setValue(command);
             int i_prop = mCharacteristic_command.getProperties();
@@ -517,11 +513,6 @@ public class MyoGattCallback extends BluetoothGattCallback {
 
     public int switchNextPage() {
         return countingProcess.getStandard();
-    }
-
-    public void setStandard(int standard)
-    {
-        countingProcess.setStandard(standard);
     }
 
     public void stopCallback() {
