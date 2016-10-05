@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="23"
-    density="xxxhdpi"
+    api-level="19"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
+<<<<<<< HEAD
     timestamp="162474213533150"
     token="3784532146221969935"
     verifier="COLD_SWAP_REQUESTED" >
+=======
+    timestamp="1060619099741360"
+    token="6777950850365411762"
+    verifier="COMPATIBLE" >
+>>>>>>> 70cd39e365fbe20e7a713ff8539bd026c446bdec
 
     <task
         name="javac"
         duration="0" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1316" />
     <task
         name="instant-run-transform"
         duration="0" />
@@ -22,6 +28,7 @@
         duration="0" />
 
     <artifact
+<<<<<<< HEAD
         location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
         type="DEX" />
     <artifact
@@ -44,6 +51,30 @@
         <artifact
             location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
+=======
+        location="C:\Users\Leki\MyoMy\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Leki\MyoMy\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="1060594719632498"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1060619099741360"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Leki\MyoMy\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Leki\MyoMy\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+>>>>>>> 70cd39e365fbe20e7a713ff8539bd026c446bdec
     </build>
 
 </instant-run>
