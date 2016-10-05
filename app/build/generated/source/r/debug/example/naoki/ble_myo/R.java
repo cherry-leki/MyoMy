@@ -2223,12 +2223,15 @@ containing a value of this type.
         public static final int menu_buttonclick=0x7f020057;
         public static final int menu_contentsbackground=0x7f020058;
         public static final int menu_uppertitle=0x7f020059;
-        public static final int notification_template_icon_bg=0x7f02005f;
-        public static final int popup_black=0x7f02005a;
-        public static final int poweroff=0x7f02005b;
-        public static final int progress_bar_states=0x7f02005c;
-        public static final int progressoval_active=0x7f02005d;
-        public static final int progressoval_default=0x7f02005e;
+        public static final int myoappimage=0x7f02005a;
+        public static final int myoappimage2=0x7f02005b;
+        public static final int myoappimage3=0x7f02005c;
+        public static final int notification_template_icon_bg=0x7f020062;
+        public static final int popup_black=0x7f02005d;
+        public static final int poweroff=0x7f02005e;
+        public static final int progress_bar_states=0x7f02005f;
+        public static final int progressoval_active=0x7f020060;
+        public static final int progressoval_default=0x7f020061;
     }
     public static final class id {
         public static final int action0=0x7f0c00bc;

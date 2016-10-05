@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-#Wed Oct 05 22:42:18 KST 2016
-base.0=C\:\\Development\\MyoMy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_58e0c9f5692b8dbd387522fc24c84e0401e6621f
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Development\\MyoMy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8bbba0a070dbe0ed7c6cac3c7c498afa224c0de6\\classes.dex
-base.1=C\:\\Development\\MyoMy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8bbba0a070dbe0ed7c6cac3c7c498afa224c0de6
-file.0=C\:\\Development\\MyoMy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_58e0c9f5692b8dbd387522fc24c84e0401e6621f\\classes.dex
-=======
-#Wed Oct 05 22:14:35 KST 2016
+#Thu Oct 06 00:43:07 KST 2016
 base.0=C\:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
->>>>>>> cadfefd48c37186432f082af9bfff2f75adc5a95
