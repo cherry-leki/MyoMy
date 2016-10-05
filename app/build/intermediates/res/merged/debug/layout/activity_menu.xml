@@ -86,7 +86,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginTop="5dp"
                             android:textColor="#ffffff"
-                            android:text=" 오늘의 소모 칼로리" />
+                            android:text="   오늘의 소모 칼로리" />
                         </FrameLayout>
 
                     </LinearLayout>
@@ -112,7 +112,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:textColor="#ffffff"
-                            android:text="  오늘의 운동"
+                            android:text="   오늘의 운동"
                             android:gravity="center_vertical"/>
                     </FrameLayout>
                     <ListView
@@ -142,7 +142,7 @@
                         android:onClick="exerciseButtonClick"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_alignParentLeft="true"
                         android:background="@drawable/menu_button_setting"
                         android:textSize="20sp"
@@ -153,7 +153,7 @@
                         android:onClick="AnalysisButtonClick"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginRight="20dp"
                         android:layout_alignParentRight="true"
                         android:background="@drawable/menu_button_setting"
                         android:textSize="20sp"

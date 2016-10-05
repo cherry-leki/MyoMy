@@ -8,10 +8,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginBottom="-8dp"
+        android:layout_marginBottom="-20dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_weight="1.2"
+        android:layout_weight="1.4"
         android:orientation="horizontal"
         android:weightSum="2">
 
@@ -22,7 +22,9 @@
             android:layout_alignParentLeft="true"
             android:layout_weight="1"
             android:background="@drawable/introbuttons_touch"
-            android:text="무산소" />
+            android:text="무산소"
+            android:paddingBottom="10dp"
+            android:textColor="#ffffff"/>
 
         <Button
             android:id="@+id/aerobicbutton"
@@ -31,13 +33,16 @@
             android:layout_alignParentRight="true"
             android:layout_weight="1"
             android:background="@drawable/introbuttons_notouch"
-            android:text="유산소" />
+            android:text="유산소"
+            android:paddingBottom="10dp"/>
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8.8"
+        android:layout_weight="8.6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:background="@drawable/introbuttons_default"
         android:padding="5dp">
 

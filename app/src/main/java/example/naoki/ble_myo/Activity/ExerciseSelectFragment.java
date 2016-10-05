@@ -1,5 +1,6 @@
 package example.naoki.ble_myo.Activity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -52,9 +53,18 @@ public class ExerciseSelectFragment extends Fragment {
         anaeroExerciseSelectAdapter = new AnaeroExerciseSelectAdapter();
 
         aeroExerciseSelectAdapter.addItem("줄넘기", "유산소운동");
+        aeroExerciseSelectAdapter.addItem("팔벌려뛰기", "유산소운동");
 
         anaeroExerciseSelectAdapter.addItem("아령운동", "무산소운동");
         anaeroExerciseSelectAdapter.addItem("팔굽혀펴기", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("윗몸일으키기", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("철봉", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("스쿼트", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("덤벨로우", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("덤벨 숄더프레스", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("레그레이즈", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("레터럴 레이즈", "무산소운동");
+        anaeroExerciseSelectAdapter.addItem("랫풀다운", "무산소운동");
     }
 
     @Nullable
@@ -123,7 +133,9 @@ public class ExerciseSelectFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 anaerobicButton.setBackground(getResources().getDrawable(R.drawable.introbuttons_touch));
+                anaerobicButton.setTextColor(Color.WHITE);
                 aerobicButton.setBackground(getResources().getDrawable(R.drawable.introbuttons_notouch));
+                aerobicButton.setTextColor(Color.BLACK);
 
                 anaeroexerciseList.setVisibility(View.VISIBLE);
                 aeroexerciseList.setVisibility(View.INVISIBLE);
@@ -134,7 +146,9 @@ public class ExerciseSelectFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 anaerobicButton.setBackground(getResources().getDrawable(R.drawable.introbuttons_notouch));
+                anaerobicButton.setTextColor(Color.BLACK);
                 aerobicButton.setBackground(getResources().getDrawable(R.drawable.introbuttons_touch));
+                aerobicButton.setTextColor(Color.WHITE);
 
                 aeroexerciseList.setVisibility(View.VISIBLE);
                 anaeroexerciseList.setVisibility(View.INVISIBLE);
