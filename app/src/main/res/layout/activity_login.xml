@@ -53,7 +53,9 @@
                     <EditText
                         android:id="@+id/idedittext"
                         android:layout_width="150dp"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="20" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -67,7 +69,9 @@
                     <EditText
                         android:id="@+id/pwedittext"
                         android:layout_width="150dp"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:maxLength="20"
+                        android:inputType="text" />
                 </LinearLayout>
             </LinearLayout>
 
