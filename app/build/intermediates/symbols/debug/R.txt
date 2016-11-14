@@ -570,15 +570,6 @@ int drawable menu_button_setting 0x7f020056
 int drawable menu_buttonclick 0x7f020057
 int drawable menu_contentsbackground 0x7f020058
 int drawable menu_uppertitle 0x7f020059
-<<<<<<< HEAD
-int drawable myoappimage3 0x7f02005a
-int drawable notification_template_icon_bg 0x7f020060
-int drawable popup_black 0x7f02005b
-int drawable poweroff 0x7f02005c
-int drawable progress_bar_states 0x7f02005d
-int drawable progressoval_active 0x7f02005e
-int drawable progressoval_default 0x7f02005f
-=======
 int drawable myoappimage 0x7f02005a
 int drawable myoappimage2 0x7f02005b
 int drawable myoappimage3 0x7f02005c
@@ -588,7 +579,6 @@ int drawable poweroff 0x7f02005e
 int drawable progress_bar_states 0x7f02005f
 int drawable progressoval_active 0x7f020060
 int drawable progressoval_default 0x7f020061
->>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
 int id action0 0x7f0c00bc
 int id action_analysis 0x7f0c00d0
 int id action_bar 0x7f0c005a

@@ -1,83 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="19"
-    density="xxhdpi"
+    api-level="23"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.0"
-<<<<<<< HEAD
-    timestamp="289686404901135"
+    timestamp="167162006366417"
     token="3784532146221969935"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
         duration="0" />
-=======
-    timestamp="1073230840041515"
-    token="6777950850365411762"
-    verifier="FULL_BUILD_REQUESTED" >
-
-    <task
-        name="javac"
-        duration="1671" />
->>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
         duration="0" />
     <task
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
     <artifact
         location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="289470240600493"
-=======
-        duration="104" />
-    <task
-        name="verifier"
-        duration="43" />
-
-    <artifact
-        location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
-    <build
-        timestamp="1073230840041515"
->>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
-<<<<<<< HEAD
-    <build
-        timestamp="289686404901135"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="593465878012492"
+        timestamp="166843460034583"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Development\MyoMy\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-=======
->>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
+    <build
+        timestamp="167162006366417"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
 
 </instant-run>

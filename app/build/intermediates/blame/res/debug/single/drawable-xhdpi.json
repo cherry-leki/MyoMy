@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\popup_black.9.png",
-        "source": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.echo\\holographlibrary\\1.0\\res\\drawable-xhdpi\\popup_black.9.png"
-    },
-    {
-        "merged": "C:\\Users\\sec\\myomy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\popup_black.9.png",
-        "source": "C:\\Users\\sec\\myomy\\app\\build\\intermediates\\exploded-aar\\com.echo\\holographlibrary\\1.0\\res\\drawable-xhdpi\\popup_black.9.png"
+        "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\popup_black.9.png",
+        "source": "C:\\Development\\MyoMy\\app\\build\\intermediates\\exploded-aar\\com.echo\\holographlibrary\\1.0\\res\\drawable-xhdpi\\popup_black.9.png"
     }
 ]

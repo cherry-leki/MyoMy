@@ -92,7 +92,8 @@ public class CountingProcess {
             if (judge && value < standard) {
                 judge = false;
                 this.nowProcess = MAIN;
-                countingListener.addCount();
+                if(this.exerciseType == 1) countingListener.addCount();
+
                 timeBoolean = true;
             }
 
