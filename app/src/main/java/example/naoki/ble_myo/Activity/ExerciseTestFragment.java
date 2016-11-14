@@ -61,12 +61,10 @@ public class ExerciseTestFragment extends Fragment {
         lineGraph = (LineGraph)view.findViewById(R.id.testGraph);
         startButton = (Button)view.findViewById(R.id.findMyoButton);
         testTimer = (TextView)view.findViewById(R.id.testTimer);
-
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 buttonInterface.startButtonClick(lineGraph);
-
                 new Thread(new Runnable() {
                     @Override
                     public void run() {

@@ -67,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
     public String deviceName;
     public int healthStandard;
 
-    Fragment nowFragment;
-    ReadyFragment readyFragment;
-    MainFragment mainFragment;
+    public Fragment nowFragment;
+    public ReadyFragment readyFragment;
+    public MainFragment mainFragment;
 
     public final static int FRAGMENT_READY = 0;
     public final static int FRAGMENT_MAIN = 1;
@@ -80,10 +80,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportActionBar().hide();
-
         mHandler = new Handler();
         readyFragment = new ReadyFragment(this);
         readyFragment.setFragmentChange(new ReadyFragment.ReadyListener() {
+
             @Override
             public void setGraph(LineGraph lineGraph) {
                 mMyoCallback.setLineGraph(lineGraph);
@@ -100,10 +100,6 @@ public class MainActivity extends AppCompatActivity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-<<<<<<< HEAD
-=======
-
->>>>>>> cadfefd48c37186432f082af9bfff2f75adc5a95
                         getSupportActionBar().show();
                         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -113,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void send(BluetoothDevice device, String deviceName) {
+            public void send(BluetoothDevice device, String deviceName, String exerciseName, int exerciseType) {
                 if ((MainActivity.this.deviceName = deviceName) != null) {
                     // Ensures Bluetooth is available on the device and it is enabled. If not,
                     // displays a dialog requesting user permission to enable Bluetooth.
@@ -126,8 +122,11 @@ public class MainActivity extends AppCompatActivity {
                         mBluetoothGatt = device.connectGatt(MainActivity.this, false, mMyoCallback); // connect to GATT Server, , if this command is success, call method onServicesDiscovered in MyoGattCallback Class
                         mMyoCallback.setBluetoothGatt(mBluetoothGatt);
                         mMyoCallback.setMode(MyoGattCallback.TEST_MODE);
+                         setTitle(exerciseName);
+                         mMyoCallback.setExerciseType(exerciseType);
                     }
                 }
+
             }
         });
 

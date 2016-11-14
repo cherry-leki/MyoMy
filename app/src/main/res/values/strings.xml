@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BLE_myo</string>
+    <string name="app_name">OhMyHealth</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

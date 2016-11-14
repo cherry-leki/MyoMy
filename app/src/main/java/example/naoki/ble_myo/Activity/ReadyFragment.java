@@ -38,6 +38,8 @@ public class ReadyFragment extends Fragment {
 
     private ReadyListener readyListener;
     private TextView readyText;
+    private String exerciseName;
+    private int exerciseType;
 
     public static final int EXERCISE_SELECT = 0;
     public static final int FIND_MYO = 1;
@@ -47,7 +49,7 @@ public class ReadyFragment extends Fragment {
     {
         void setGraph(LineGraph lineGraph);
         void fragmentChange();
-        void send(BluetoothDevice device, String deviceName);
+        void send(BluetoothDevice device, String deviceName, String exerciseName, int exerciseType);
     }
 
     private ExerciseSelectFragment exerciseSelectFragment;
@@ -83,7 +85,8 @@ public class ReadyFragment extends Fragment {
             }
             @Override
             public void selectExercise(String name, int type) {
-
+                ReadyFragment.this.exerciseName = name;
+                ReadyFragment.this.exerciseType = type;
             }
         });
 
@@ -103,7 +106,7 @@ public class ReadyFragment extends Fragment {
             @Override
             public void nextActivity() {
                 readyListener.fragmentChange();
-//                closeBLEGatt();
+//                readyListener.setExercise(exerciseName, exerciseType);
             }
         });
 
@@ -123,7 +126,7 @@ public class ReadyFragment extends Fragment {
 
             @Override
             public void selectDevice(BluetoothDevice devices, String deviceName) {
-                readyListener.send(devices, deviceName);
+                readyListener.send(devices, deviceName, exerciseName, exerciseType);
             }
         });
     }

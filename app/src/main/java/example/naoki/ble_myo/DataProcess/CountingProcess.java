@@ -16,6 +16,7 @@ public class CountingProcess {
 
     private int standard;
     private int nowProcess;
+    private int exerciseType;
 
     private long mStartTime;
     private long startTime;
@@ -88,8 +89,6 @@ public class CountingProcess {
 
         if(onStart) {
 
-            System.out.println(judge + " " + value + " " + standard);
-
             if (judge && value < standard) {
                 judge = false;
                 this.nowProcess = MAIN;
@@ -133,8 +132,8 @@ public class CountingProcess {
                 if(minute < 10) minuteString = String.format("0%d", minute); else minuteString = String.format("%d", minute);
                 if(this.second < 10) secondString = String.format("0%d",  this.second); else secondString = String.format("%d", this.second);
                 total = String.format("%d:%s:%s.%s", hour, minuteString, secondString, mSecondString);
-                countingListener.setTime(total);
 
+                if(this.exerciseType == 0) countingListener.setTime(total);
                 if (!judge) {
                     judge = true;
                 }
@@ -158,7 +157,10 @@ public class CountingProcess {
     {
         return standard;
     }
-
+    public void setExerciseType(int type)
+    {
+        this.exerciseType = type;
+    }
     public void setType(int type)
     {
         this.type = type;

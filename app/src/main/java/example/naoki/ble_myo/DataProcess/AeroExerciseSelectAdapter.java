@@ -18,7 +18,6 @@ import example.naoki.ble_myo.R;
 public class AeroExerciseSelectAdapter extends BaseAdapter {
 
     private ArrayList<AeroExerciseSelectItem> aeroExerciseSelectItemArrayList = new ArrayList<AeroExerciseSelectItem>();
-
     public AeroExerciseSelectAdapter() {
 
     }
@@ -55,7 +54,6 @@ public class AeroExerciseSelectAdapter extends BaseAdapter {
 
     public void addItem(String title, String desc){
         AeroExerciseSelectItem item = new AeroExerciseSelectItem();
-
         item.setTitle(title);
         item.setDesc(desc);
 

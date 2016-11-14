@@ -30,12 +30,6 @@ public class LoginActivity extends Activity {
         guestLoginButton = (Button) findViewById(R.id.guestloginbutton);
         signUpButton = (Button) findViewById(R.id.signupbutton);
         questionButton = (Button) findViewById(R.id.questionbutton);
-
-//        try {
-////            ClientSocket.getSocket();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
 
     @Override

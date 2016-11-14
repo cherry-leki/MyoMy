@@ -12,9 +12,11 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import java.lang.reflect.Field;
+import java.util.HashMap;
 
 import example.naoki.ble_myo.DataProcess.AeroExerciseSelectAdapter;
 import example.naoki.ble_myo.DataProcess.AnaeroExerciseSelectAdapter;
+import example.naoki.ble_myo.DataProcess.ExerciseSelectItem;
 import example.naoki.ble_myo.R;
 
 /**
@@ -33,6 +35,9 @@ public class ExerciseSelectFragment extends Fragment {
     private static final int AERO = 0;
     private static final int ANAERO = 1;
 
+    private HashMap<Integer, String> aeroExercise = new HashMap<>();
+    private HashMap<Integer, String> anaeroExercise = new HashMap<>();
+
     public interface SwitchScreen
     {
         void switchNextScreen();
@@ -48,23 +53,29 @@ public class ExerciseSelectFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         aeroExerciseSelectAdapter = new AeroExerciseSelectAdapter();
         anaeroExerciseSelectAdapter = new AnaeroExerciseSelectAdapter();
 
-        aeroExerciseSelectAdapter.addItem("줄넘기", "유산소운동");
-        aeroExerciseSelectAdapter.addItem("팔벌려뛰기", "유산소운동");
+        aeroExercise.put(0, "줄넘기");
+        aeroExercise.put(1, "팔벌려뛰기");
 
-        anaeroExerciseSelectAdapter.addItem("아령운동", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("팔굽혀펴기", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("윗몸일으키기", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("철봉", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("스쿼트", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("덤벨로우", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("덤벨 숄더프레스", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("레그레이즈", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("레터럴 레이즈", "무산소운동");
-        anaeroExerciseSelectAdapter.addItem("랫풀다운", "무산소운동");
+        anaeroExercise.put(0, "아령운동");
+        anaeroExercise.put(1, "팔굽혀펴기");
+        anaeroExercise.put(2, "윗몸일으키기");
+        anaeroExercise.put(3, "철봉");
+        anaeroExercise.put(4, "스쿼트");
+
+
+        // 유산소
+        aeroExerciseSelectAdapter.addItem(aeroExercise.get(0), "유산소운동");                            // 0
+        aeroExerciseSelectAdapter.addItem(aeroExercise.get(1), "유산소운동");                        // 1
+
+                                                                                                    // 무산소
+        anaeroExerciseSelectAdapter.addItem(anaeroExercise.get(0), "무산소운동");                       // 0
+        anaeroExerciseSelectAdapter.addItem(anaeroExercise.get(1), "무산소운동");
+        anaeroExerciseSelectAdapter.addItem(anaeroExercise.get(2), "무산소운동");
+        anaeroExerciseSelectAdapter.addItem(anaeroExercise.get(3), "무산소운동");
+        anaeroExerciseSelectAdapter.addItem(anaeroExercise.get(4), "무산소운동");
     }
 
     @Nullable
@@ -83,24 +94,8 @@ public class ExerciseSelectFragment extends Fragment {
         anaeroexerciseList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View view, int position, long id) {
-
-                Class item = parent.getItemAtPosition(position).getClass();
-                Field titleField = null;
-                Field  descField = null;
-
-                try {
-                    titleField = item.getDeclaredField("titleStr");
-                    descField = item.getDeclaredField("descStr");
-                } catch (NoSuchFieldException e) {
-                    e.printStackTrace();
-                }
-
-                String titleStr = titleField.toString();
-                String descStr = descField.toString();
-
-                System.out.println(titleStr);
-
-                switchScreen.selectExercise(descStr, ANAERO);
+                AnaeroExerciseSelectAdapter.AnaeroExerciseSelectItem item = (AnaeroExerciseSelectAdapter.AnaeroExerciseSelectItem)parent.getItemAtPosition(position);
+                switchScreen.selectExercise(item.getDesc(), ANAERO);
                 switchScreen.switchNextScreen();
             }
         });
@@ -108,23 +103,8 @@ public class ExerciseSelectFragment extends Fragment {
         aeroexerciseList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View view, int position, long id) {
-                Class item = parent.getItemAtPosition(position).getClass();
-                Field titleField = null;
-                Field  descField = null;
-
-                try {
-                    titleField = item.getDeclaredField("titleStr");
-                    descField = item.getDeclaredField("descStr");
-                } catch (NoSuchFieldException e) {
-                    e.printStackTrace();
-                }
-
-                String titleStr = titleField.toGenericString();
-                String descStr = descField.toGenericString();
-
-                System.out.println(titleStr);
-
-                switchScreen.selectExercise(descStr, AERO);
+                AeroExerciseSelectAdapter.AeroExerciseSelectItem item = (AeroExerciseSelectAdapter.AeroExerciseSelectItem)parent.getItemAtPosition(position);
+                switchScreen.selectExercise(item.getDesc(), AERO);
                 switchScreen.switchNextScreen();
             }
         });

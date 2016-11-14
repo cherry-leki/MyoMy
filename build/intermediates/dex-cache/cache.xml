@@ -11,6 +11,15 @@
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_a2eb1aecb487e155518613ef9931e3984630d8f8\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_cc5500b10c655b8220b453a5bbcaebedbd1140c8.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
         jumboMode="true"
@@ -27,6 +36,15 @@
         revision="23.0.2"
         sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_cc5500b10c655b8220b453a5bbcaebedbd1140c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_0f718e5917b7ba79bdb515f1dd958f5c91cba6c3.jar" />
     </item>
     <item
         is-multidex="true"
@@ -47,12 +65,30 @@
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_fb499124073c1c624a2e2f7eca2685dac33f2ac2\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.echo\holographlibrary\1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2940df18c83be014a53f7ab34dd2304c79117c00">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.echo-holographlibrary-1.0_eed45c91642bf6a1c707949766c9d45e91faed24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_49812c3f723544a300e3e789a078bb2f2e704e2d.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Development\MyoMy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="4ac9806ae01df4bd27b9161f5b1a973877bd5edb">
+        sha1="b39752b9a3614b34098b2eca87a7d176228c256a">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8bbba0a070dbe0ed7c6cac3c7c498afa224c0de6\classes.dex" />
     </item>
     <item
@@ -65,6 +101,15 @@
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_49812c3f723544a300e3e789a078bb2f2e704e2d\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_a2eb1aecb487e155518613ef9931e3984630d8f8.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
         jumboMode="true"
@@ -74,13 +119,31 @@
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_ade3d3b96435683a179985e5bfcc77867563e341\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_fb499124073c1c624a2e2f7eca2685dac33f2ac2.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Development\MyoMy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="18f4c3f85349a6b00199a2efcca898291f8e4419">
+        sha1="92abb40c874f73956e56237401ab1019c36b1c72">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_58e0c9f5692b8dbd387522fc24c84e0401e6621f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_5eb89d828b5a360e205a3c9099f41a5f24504975.jar" />
     </item>
     <item
         is-multidex="true"
@@ -90,6 +153,24 @@
         revision="23.0.2"
         sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
         <dex dex="C:\Development\MyoMy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_5eb89d828b5a360e205a3c9099f41a5f24504975\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Development\MyoMy\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_ade3d3b96435683a179985e5bfcc77867563e341.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\androidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Development\MyoMy\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_b452aff467e313e92eda6d148d80c6974057e87a.jar" />
     </item>
     <item
         is-multidex="true"

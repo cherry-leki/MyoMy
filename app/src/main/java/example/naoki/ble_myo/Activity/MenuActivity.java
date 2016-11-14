@@ -99,7 +99,6 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView parent, View view, int position, long id) {
                 ExerciseSelectItem item = (ExerciseSelectItem) parent.getItemAtPosition(position);
-
                 String titleStr = item.getTitle();
                 String descStr = item.getDesc();
             }

@@ -393,7 +393,9 @@ public class MyoGattCallback extends BluetoothGattCallback {
                 dataList1_a[0][0] = movingAverage.applyMovingAverage();
                 dataList1_b[0][0] = movingAverage.applyMovingAverage();
 
-                callback_msg = String.format("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d", emgDatas[0], emgDatas[1], emgDatas[2], emgDatas[3], emgDatas[4], emgDatas[5], emgDatas[6], emgDatas[7], emgDatas[8], emgDatas[8], emgDatas[10], emgDatas[11], emgDatas[12], emgDatas[13], emgDatas[14], emgDatas[15]);
+                callback_msg = String.format("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d",
+                        emgDatas[0], emgDatas[1], emgDatas[2], emgDatas[3], emgDatas[4], emgDatas[5], emgDatas[6], emgDatas[7],
+                        emgDatas[8], emgDatas[9], emgDatas[10], emgDatas[11], emgDatas[12], emgDatas[13], emgDatas[14], emgDatas[15]);
             }
 
             // Test 모드
@@ -534,5 +536,8 @@ public class MyoGattCallback extends BluetoothGattCallback {
     public void setType(int type)
     {
         countingProcess.setType(type);
+    }
+    public void setExerciseType(int type){
+        countingProcess.setExerciseType(type);
     }
 }
