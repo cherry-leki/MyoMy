@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="23"
-    density="xxxhdpi"
+    api-level="19"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
+<<<<<<< HEAD
     timestamp="289686404901135"
     token="3784532146221969935"
     verifier="COLD_SWAP_REQUESTED" >
@@ -11,11 +12,21 @@
     <task
         name="javac"
         duration="0" />
+=======
+    timestamp="1073230840041515"
+    token="6777950850365411762"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1671" />
+>>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
         duration="0" />
     <task
         name="verifier"
@@ -30,11 +41,25 @@
 
     <build
         timestamp="289470240600493"
+=======
+        duration="104" />
+    <task
+        name="verifier"
+        duration="43" />
+
+    <artifact
+        location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1073230840041515"
+>>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Development\MyoMy\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Leki\MyoMy\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+<<<<<<< HEAD
     <build
         timestamp="289686404901135"
         verifier="COLD_SWAP_REQUESTED" >
@@ -52,5 +77,7 @@
             location="C:\Development\MyoMy\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+=======
+>>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
 
 </instant-run>

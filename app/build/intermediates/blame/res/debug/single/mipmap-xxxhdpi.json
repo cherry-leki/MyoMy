@@ -1,6 +1,15 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Development\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Development\\MyoMy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+=======
+        "merged": "C:\\Users\\Leki\\MyoMy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Leki\\MyoMy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sec\\myomy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\sec\\myomy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+>>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
     }
 ]

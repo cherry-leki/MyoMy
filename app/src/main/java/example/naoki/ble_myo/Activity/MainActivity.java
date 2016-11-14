@@ -100,6 +100,13 @@ public class MainActivity extends AppCompatActivity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
+<<<<<<< HEAD
+=======
+/*<<<<<<< HEAD
+=======
+
+>>>>>>> cadfefd48c37186432f082af9bfff2f75adc5a95*/
+>>>>>>> 11e003c20b8bba19c2d19a3e30671d1e298ed9c5
                         getSupportActionBar().show();
                         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                         getSupportActionBar().setDisplayShowHomeEnabled(true);
